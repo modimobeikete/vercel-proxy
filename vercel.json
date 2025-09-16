@@ -1,6 +1,6 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "{url}/$1"}
+      {"src": "/(.*)","dest": "https://resonitecnspr.1244176069.workers.dev/$1"}
     ]
 }
