@@ -1,5 +1,8 @@
-   {
-     "rewrites": [
-       {"source": "/(.*)", "destination": "http://122.143.212.35.bc.googleusercontent.com:33728"}
-     ]
-   }
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "http://122.143.212.35.bc.googleusercontent.com:33728/:path*"
+    }
+  ]
+}
