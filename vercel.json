@@ -1,6 +1,5 @@
-{
-    "version": 2,
-    "routes": [
-      {"src": "/(.*)","dest": "https://resonitecnspr.1244176069.workers.dev/$1"}
-    ]
-}
+   {
+     "rewrites": [
+       {"source": "/(.*)", "destination": "http://122.143.212.35.bc.googleusercontent.com:33728"}
+     ]
+   }
